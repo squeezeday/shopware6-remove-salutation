@@ -1,0 +1,17 @@
+{
+  "name": "squeezeday/shopware6-remove-salutation",
+  "description": "Remove salutation from account/registration",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "RemoveSalutation\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "RemoveSalutation\\RemoveSalutation",
+    "label": {
+      "en-GB": "Remove salutation"
+    }
+  }
+}
